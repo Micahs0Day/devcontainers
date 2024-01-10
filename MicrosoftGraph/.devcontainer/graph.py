@@ -2,6 +2,7 @@
 # Licensed under the MIT License.
 
 # <UserAuthConfigSnippet>
+import asyncio
 from configparser import SectionProxy
 from azure.identity import DeviceCodeCredential
 from msgraph import GraphServiceClient
