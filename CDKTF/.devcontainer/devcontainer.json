@@ -1,0 +1,16 @@
+{
+    "name": "validations",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "onCreateCommand": "sh .devcontainer/setup.sh",
+    "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnPaste": true
+            },
+            "extensions": [
+                "ms-python.python"
+                ]
+        }
+    }
+}
