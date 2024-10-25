@@ -12,5 +12,8 @@
                 "ms-python.python"
                 ]
         }
+    },
+    "containerEnv": {
+        "VALIDATION_ENV": ""
     }
 }
